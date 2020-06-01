@@ -1,0 +1,813 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<title>Kathiyawadi coders</title>
+  </head>
+  <style>
+	.main{
+		font-size:20px;
+		letter-spacing:0.5px;
+	}
+	
+	@media only screen and(max-width:430px){
+		 .navbar .navbar-brand h2{     
+         font-size:18px;	
+		}
+	}
+	
+	@media only screen and(max-width:352px){
+		 .navbar .navbar-brand h2{     
+         font-size:15px;	
+		}
+	}
+	@media only screen and(max-width:310px){
+		 .navbar .navbar-brand h2{     
+         font-size:17px;	
+		}
+	}
+
+	@media only screen and(max-width:600px){
+		 body{     
+         background-color:green;	
+		}
+	}
+	
+.btn {
+  background-color:#00aaff;
+  border:none;
+  color: black;
+  padding: 14px 32px;
+  text-align: center;
+  font-size: 12px;
+  margin: 4px 8px;
+  transition: 0.3s;
+  color:white;
+  border-radius:10px
+}
+
+.btn:hover {
+  background-color:#343a40;
+  color: white;
+
+}
+
+img{
+max-width:100%;
+margin:auto;
+}
+
+.card{
+margin:auto;
+width:100%;
+margin-bottom:20px;
+
+}
+
+footer{
+	margin:auto;
+}
+
+.footer-top{
+
+background:#000033;
+padding:80px;
+
+}
+footer h2{
+ 
+ color:white;
+ font-family:Courgette;
+ margin-bottom:40px;
+
+}
+
+footer p{
+
+	color:#999;
+	line-height:25px;
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 50px;
+  height:50px;
+  text-align:center;
+  text-decoration: none;
+  margin: 2px 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+	background-color: yellow;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  justify-content:center;
+  
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.footer-bottom-text{
+	
+	margin-top:100px;
+	margin-left:30px;
+	text-align:center;
+}
+
+@media only screen and (max-width:400px){
+	
+	.footer-bottom-text{
+		font-size:10px;
+		margin-left:auto;
+	}
+}
+
+@media only screen and (max-width:588px){
+	
+	.footer-bottom-text{
+		font-size:15px;
+		margin-left:auto;
+	}
+}
+
+@media only screen and (max-width:488px){
+	
+	.footer-bottom-text{
+		font-size:12px;
+		margin-left:auto;
+	}
+}
+
+.update{
+
+color:blue;
+font-weight:bold;
+
+}
+
+.box{
+
+width:100%;
+background-color:gray;
+margin-top:30px;
+height:500px;
+overflow:auto;
+}
+
+  </style>
+ 
+  <body>
+    
+	<p align="center" style="margin-top:20px;"><span id="datetime"></p>	
+		
+	<div class="container">
+		<div style="margin-top:30px">
+			<div class="row">
+				<div class=""col-md-12>
+					<img src="images/banner.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="sticky-top">
+		<nav class="first" style="margin-top:30px;">
+			<div class="navbar navbar-expand-sm navbar-dark bg-dark">
+				<a href="#" class="navbar-brand" style="color:orange">બોલશે‌ ગુજરાત</a>
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#nvbr">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="nvbr">
+					<ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="float:left">
+						<li class="navbar-item"><a href="#" class="nav-link" style="color:white">હોમ</a></li>
+						<li class="navbar-item"><a href="#" class="nav-link" style="color:white">ખેડૂત</a></li>
+						<li class="navbar-item"><a href="#" class="nav-link" style="color:white;">જાણવા જેવું</a></li>
+						<li class="navbar-item"><a href="#" class="nav-link" style="color:white;">લેખ</a></li>
+						<li class="navbar-item"><a href="#" class="nav-link" style="color:white;">રાજકારણ</a></li>
+						<li class="navbar-item"><a href="#" class="nav-link" style="color:white;">ધાર્મિક</a></li>
+						<li class="navbar-item"><a href="#" class="nav-link" style="color:white;">સ્વાસ્થ્ય</a></li>
+						<li class="navbar-item"><a href="#" class="nav-link" style="color:white;">સમાચાર</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+	
+	
+	
+	<div class="container">
+		<div style="margin-top:40px;">
+			<div class="row">
+				<div class="col-sm-6">
+					<div id="myslider" class="carousel slide" data-ride="carousel" data-interval="5000">	
+						<div class="carousel-inner">
+					
+							<div class="carousel-item active">
+								<img src="images/modi1.jpg" class="img-fluid">
+								
+								<div class="carousel-caption">
+									<h4 style="color:orange; font-weight:bold font-size:15px">Samachar 1</h4>
+									<h2 class="main" class="lead">Headline 1</h2>
+								</div>
+								
+							</div>
+							
+							<div class="carousel-item">
+								<img src="images/modi2.jpg" class="img-fluid">
+								
+								<div class="carousel-caption">
+									<h4 style="color:orange; font-weight:bold font-size:15px">Samachar 2</h4>
+									<h2 class="main" class="lead">Headline 2</h2>
+								</div>
+								
+							</div>
+							
+							<div class="carousel-item">
+								<img src="images/modi3.jpg" class="img-fluid">
+								
+								<div class="carousel-caption">
+									<h4 style="color:orange; font-weight:bold font-size:15px">Samachar 3</h4>
+									<h2 class="main" class="lead">Headline 3</h2>
+								</div>
+								
+							</div>
+							
+							
+							<div class="carousel-item">
+								<img src="images/modi4.jpg" class="img-fluid">
+								
+								<div class="carousel-caption">
+									<h4 style="color:orange; font-weight:bold font-size:15px">Samachar 4</h4>
+									<h2 class="main" class="lead">Headline 4</h2>
+								</div>
+								
+							</div>
+							
+							
+							
+							<div class="carousel-item">
+								<img src="images/slide_01.jpg" class="img-fluid">
+								
+								<div class="carousel-caption">
+									<h4 style="color:orange; font-weight:bold font-size:15px">Samachar 5</h4>
+									<h2 class="main" class="lead">Headline 5</h2>
+								</div>
+								
+							</div>
+							
+							
+							
+						</div>
+						<a href="#myslider" class="carousel-control-prev" data-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						</a>
+						<a href="#myslider" class="carousel-control-next" data-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						</a>
+					</div>		
+				</div>
+				
+				<div class="col-sm-6">
+					<div class="row">
+						<div class="col-sm-6" style="margin-top:20px;">
+							<img src="images/modi1.jpg">
+						</div>
+						<div class="col-sm-6" style="margin-top:20px">
+							<img src="images/modi1.jpg">
+						</div>
+					</div>
+					
+					<div class="row" style="margin-top:20px;">
+						<div class="col-sm-6">
+							<img src="images/modi1.jpg" style="margin-top:20px">
+						</div>
+						<div class="col-sm-6">
+							<img src="images/modi1.jpg" style="margin-top:20px">
+						</div>
+					</div>
+					
+				</div>
+							
+			</div>
+		</div>
+	</div>
+
+	<!-- part 1 -->
+	
+	<div class="container">
+		<div style="margin-top:30px">
+			<div class="row">
+				<div class="col-sm-8">
+					<h5 style="color:#00aaff; font-weight:bold">સમાચાર</h5>
+					<hr style="border:1px solid #00aaff">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="card shadow visible">
+								<div class="card-header" style="padding:0px;">
+									<img src="images/modi1.jpg" class="img-fluid">
+								</div>
+								<div class="card-body">
+									<a href="#"><button class="btn" style="float:left">સમાચાર</button></a><br>
+									<h4 style="margin-top:50px">લોકડાઉન 5.0ની જાહેરાતઃ 1 મહિનો લંબાવાયું લોકડાઉન, જાણો શું છે નવી ગાઇડલાઇન</h4>
+								</div>
+								<div class="card-footer">
+									<h6>કોરોના વાયરસ સામે લડવા માટે દેશમાં લોકડાઉન લંબાવાની જાહેરાત કરી દેવામાં આવી છે. લોકડાઉન 4.0 આવતીકાલે પૂરું થઇ રહ્યું છે.</h6>
+								</div>									
+							</div>
+						
+						</div>
+						
+						<div class="col-sm-6">
+							<div class="card shadow visible bg-secondary" style="border-radius:20px">
+								<div class="card-body" style="border-radius:20px">
+									<h6 style="color:white">મૃત્યુ પછી તમારા પ્રિયજનને ઇંડામાં રોપીને ઝાડમાં રૂપાંતરિત કરો.</h6>
+								</div>
+							</div>
+							<div class="card shadow visible bg-secondary" style="border-radius:20px">
+								<div class="card-body"style="border-radius:20px">
+									<h6 style="color:white">અમદાવાદનાં વધુ એક પોલીસ યુવાને જીવન ટુંકાવ્યું, ગળે ફાંસો ખાઇને કર્યો આપઘાત</h6>
+								</div>
+							</div>
+							<div class="card shadow visible bg-secondary"style="border-radius:20px">
+								<div class="card-body" style="border-radius:20px">
+									<h6 style="color:white">લોકડાઉન હટાવવું કે વધુ સખત કરવું? મોદી અને શાહ વચ્ચે લાંબી બેઠક.</h6>
+								</div>
+							</div>
+							<div class="card shadow visible bg-secondary" style="border-radius:20px">
+								<div class="card-body" style="border-radius:20px">
+									<h6 style="color:white">હવે વ્હોટ્સઅપથી LPG સિલિન્ડર બુક કરાવો અને ઓનલાઈન પેમેન્ટ કરો..</h6>
+								</div>
+							</div>
+							
+						</div>
+								
+						
+					</div>
+					
+				</div>
+					
+				<div class="col-sm-4">
+					<img src="images/dhandho.jpg">
+					<img src="images/dhandho.jpg" style="margin-top:50px;">
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+	<!-- part 2-->
+	
+	<div class="container">
+		<div style="margin-top:30px">
+			<div class="row">
+				<div class="col-sm-8">
+					<div class="row">
+						<div class="col-sm-6">
+							<h5 style="color:#00aaff; font-weight:bold">સ્વાસ્થ્ય</h5>
+							<hr style="border:1px solid #00aaff">
+							<div class="card shadow visible">
+								<div class="card-header" style="padding:0px;">
+									<img src="images/modi1.jpg" class="img-fluid">
+								</div>
+								<div class="card-body">
+									<a href="#"><button class="btn" style="float:left">સમાચાર</button></a>
+									<a href="#"><button class="btn" style="float:left">સ્વાસ્થ્ય</button></a><br>
+									<h4 style="margin-top:50px">લોકડાઉન 5.0ની જાહેરાતઃ 1 મહિનો લંબાવાયું લોકડાઉન, જાણો શું છે નવી ગાઇડલાઇન</h4>
+								</div>
+								<div class="card-footer">
+									<h6>કોરોના વાયરસ સામે લડવા માટે દેશમાં લોકડાઉન લંબાવાની જાહેરાત કરી દેવામાં આવી છે. લોકડાઉન 4.0 આવતીકાલે પૂરું થઇ રહ્યું છે.</h6>
+								</div>									
+							</div>
+						
+						</div>
+						
+						<div class="col-sm-6">
+							<h5 style="color:#00aaff; font-weight:bold">ધાર્મિક</h5>
+							<hr style="border:1px solid #00aaff">
+							<div class="card shadow visible">
+								<div class="card-header" style="padding:0px;">
+									<img src="images/jigneshdada.jpg" class="img-fluid">
+								</div>
+								<div class="card-body">
+									<button class="btn" style="float:left">ધાર્મિક</button>
+									<button class="btn" style="float:left">સમાચાર</button><br>
+									<h4 style="margin-top:50px">જીગ્નેશદાદાએ યૂ-ટ્યૂબ માં પૈસા કમાવવા માટે અન્ય યુટ્યૂબર ને કાયદેસરની કાર્યવાહી કરવા આપી ચીમકી</h4>
+								</div>
+								<div class="card-footer">
+									<h6>કાર્તિક હિરપરા: બોલશે ગુજરાત ( સુરત ) હાલમાં જ્યારે કોરોના મહામારી ચાલી રહી છે અને લોકડાઉન છે ત્યારે લોકો ઘરે.</h6>
+								</div>									
+							</div>
+						
+						</div>
+						
+						<div class="col-sm-6">
+							<div class="card shadow visible bg-secondary" style="border-radius:20px">
+								<div class="card-body" style="border-radius:20px">
+									<h6 style="color:white">મૃત્યુ પછી તમારા પ્રિયજનને ઇંડામાં રોપીને ઝાડમાં રૂપાંતરિત કરો.</h6>
+								</div>
+							</div>
+							<div class="card shadow visible bg-secondary" style="border-radius:20px">
+								<div class="card-body"style="border-radius:20px">
+									<h6 style="color:white">અમદાવાદનાં વધુ એક પોલીસ યુવાને જીવન ટુંકાવ્યું, ગળે ફાંસો ખાઇને કર્યો આપઘાત</h6>
+								</div>
+							</div>
+							<div class="card shadow visible bg-secondary"style="border-radius:20px">
+								<div class="card-body" style="border-radius:20px">
+									<h6 style="color:white">લોકડાઉન હટાવવું કે વધુ સખત કરવું? મોદી અને શાહ વચ્ચે લાંબી બેઠક.</h6>
+								</div>
+							</div>
+							<div class="card shadow visible bg-secondary" style="border-radius:20px">
+								<div class="card-body" style="border-radius:20px">
+									<h6 style="color:white">હવે વ્હોટ્સઅપથી LPG સિલિન્ડર બુક કરાવો અને ઓનલાઈન પેમેન્ટ કરો..</h6>
+								</div>
+							</div>
+							
+						</div>
+						
+						
+						
+						<div class="col-sm-6">
+							<div class="card shadow visible bg-secondary" style="border-radius:20px">
+								<div class="card-body" style="border-radius:20px">
+									<h6 style="color:white">મૃત્યુ પછી તમારા પ્રિયજનને ઇંડામાં રોપીને ઝાડમાં રૂપાંતરિત કરો.</h6>
+								</div>
+							</div>
+							<div class="card shadow visible bg-secondary" style="border-radius:20px">
+								<div class="card-body"style="border-radius:20px">
+									<h6 style="color:white">અમદાવાદનાં વધુ એક પોલીસ યુવાને જીવન ટુંકાવ્યું, ગળે ફાંસો ખાઇને કર્યો આપઘાત</h6>
+								</div>
+							</div>
+							<div class="card shadow visible bg-secondary"style="border-radius:20px">
+								<div class="card-body" style="border-radius:20px">
+									<h6 style="color:white">લોકડાઉન હટાવવું કે વધુ સખત કરવું? મોદી અને શાહ વચ્ચે લાંબી બેઠક.</h6>
+								</div>
+							</div>
+							<div class="card shadow visible bg-secondary" style="border-radius:20px">
+								<div class="card-body" style="border-radius:20px">
+									<h6 style="color:white">હવે વ્હોટ્સઅપથી LPG સિલિન્ડર બુક કરાવો અને ઓનલાઈન પેમેન્ટ કરો..</h6>
+								</div>
+							</div>
+							
+						</div>
+						
+						
+						
+						
+						
+					</div>
+					
+				</div>
+					
+				<div class="col-sm-4">
+					<div class="box">
+						<div class="card shadow visible" style="border-radius:20px; width:95%;">
+								<div class="card-header" style="padding:0px;" style="border-radius:20px">
+									<img src="images/modi1.jpg" class="img-fluid" style="border-radius:20px">
+								</div>
+								<div class="card-body">
+									<button class="btn" style="float:left">સમાચાર</button><br>
+									<h4 style="margin-top:50px">લોકડાઉન 5.0ની જાહેરાતઃ 1 મહિનો લંબાવાયું લોકડાઉન, જાણો શું છે નવી ગાઇડલાઇન</h4>
+								</div>
+								<div class="card-footer">
+									<h6>કોરોના વાયરસ સામે લડવા માટે દેશમાં લોકડાઉન લંબાવાની જાહેરાત કરી દેવામાં આવી છે. લોકડાઉન 4.0 આવતીકાલે પૂરું થઇ રહ્યું છે.</h6>
+								</div>									
+						</div>
+						
+						<div class="card shadow visible" style="border-radius:20px; width:95%">
+								<div class="card-header" style="padding:0px;" style="border-radius:20px">
+									<img src="images/modi1.jpg" class="img-fluid" style="border-radius:20px">
+								</div>
+								<div class="card-body">
+									<button class="btn" style="float:left">સમાચાર</button><br>
+									<h4 style="margin-top:50px">લોકડાઉન 5.0ની જાહેરાતઃ 1 મહિનો લંબાવાયું લોકડાઉન, જાણો શું છે નવી ગાઇડલાઇન</h4>
+								</div>
+								<div class="card-footer">
+									<h6>કોરોના વાયરસ સામે લડવા માટે દેશમાં લોકડાઉન લંબાવાની જાહેરાત કરી દેવામાં આવી છે. લોકડાઉન 4.0 આવતીકાલે પૂરું થઇ રહ્યું છે.</h6>
+								</div>									
+						</div>
+						
+						<div class="card shadow visible" style="border-radius:20px; width:95%">
+								<div class="card-header" style="padding:0px;" style="border-radius:20px">
+									<img src="images/modi1.jpg" class="img-fluid" style="border-radius:20px">
+								</div>
+								<div class="card-body">
+									<button class="btn" style="float:left">સમાચાર</button><br>
+									<h4 style="margin-top:50px">લોકડાઉન 5.0ની જાહેરાતઃ 1 મહિનો લંબાવાયું લોકડાઉન, જાણો શું છે નવી ગાઇડલાઇન</h4>
+								</div>
+								<div class="card-footer">
+									<h6>કોરોના વાયરસ સામે લડવા માટે દેશમાં લોકડાઉન લંબાવાની જાહેરાત કરી દેવામાં આવી છે. લોકડાઉન 4.0 આવતીકાલે પૂરું થઇ રહ્યું છે.</h6>
+								</div>									
+						</div>
+					</div>
+					
+					<img src="images/modi1.jpg" style="margin-top:50px;">
+					
+					<img src="images/modi1.jpg" style="margin-top:50px;">
+				</div>
+					
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- part 3 -->
+	
+	
+	<div class="container">
+		<div style="margin-top:30px">
+			<div class="row">
+				<div class="col-sm-8">
+					<h5 style="color:#00aaff; font-weight:bold">લેખ</h5>
+					<hr style="border:1px solid #00aaff">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="card shadow visible">
+								<div class="card-header" style="padding:0px;">
+									<img src="images/modi1.jpg" class="img-fluid">
+								</div>
+								<div class="card-body">
+									<a href="#"><button class="btn" style="float:left">લેખ</button></a><br>
+									<h4 style="margin-top:50px">લોકડાઉન 5.0ની જાહેરાતઃ 1 મહિનો લંબાવાયું લોકડાઉન, જાણો શું છે નવી ગાઇડલાઇન</h4>
+								</div>
+								<div class="card-footer">
+									<h6>કોરોના વાયરસ સામે લડવા માટે દેશમાં લોકડાઉન લંબાવાની જાહેરાત કરી દેવામાં આવી છે. લોકડાઉન 4.0 આવતીકાલે પૂરું થઇ રહ્યું છે.</h6>
+								</div>									
+							</div>
+						
+						</div>
+						
+						<div class="col-sm-6">
+							<div class="card shadow visible bg-secondary" style="border-radius:20px">
+								<div class="card-body" style="border-radius:20px">
+									<h6 style="color:white">મૃત્યુ પછી તમારા પ્રિયજનને ઇંડામાં રોપીને ઝાડમાં રૂપાંતરિત કરો.</h6>
+								</div>
+							</div>
+							<div class="card shadow visible bg-secondary" style="border-radius:20px">
+								<div class="card-body"style="border-radius:20px">
+									<h6 style="color:white">અમદાવાદનાં વધુ એક પોલીસ યુવાને જીવન ટુંકાવ્યું, ગળે ફાંસો ખાઇને કર્યો આપઘાત</h6>
+								</div>
+							</div>
+							<div class="card shadow visible bg-secondary"style="border-radius:20px">
+								<div class="card-body" style="border-radius:20px">
+									<h6 style="color:white">લોકડાઉન હટાવવું કે વધુ સખત કરવું? મોદી અને શાહ વચ્ચે લાંબી બેઠક.</h6>
+								</div>
+							</div>
+							<div class="card shadow visible bg-secondary" style="border-radius:20px">
+								<div class="card-body" style="border-radius:20px">
+									<h6 style="color:white">હવે વ્હોટ્સઅપથી LPG સિલિન્ડર બુક કરાવો અને ઓનલાઈન પેમેન્ટ કરો..</h6>
+								</div>
+							</div>
+							
+						</div>
+					
+					</div>
+					
+				</div>
+					
+				<div class="col-sm-4">
+					<img src="images/dhandho.jpg">
+					<img src="images/dhandho.jpg" style="margin-top:50px;">
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<!-- part 4 -->
+	
+	<div class="container">
+		<div style="margin-top:30px">
+			<div class="row">
+				<div class="col-sm-8">
+					<h5 style="color:#00aaff; font-weight:bold">ખેડૂત</h5>
+					<hr style="border:1px solid #00aaff">
+					<div class="card shadow visible">
+						<div class="card-header" style="padding:0px;">
+							<img src="images/khedut.jpg" class="img-fluid">
+						</div>
+						<div class="card-body">
+							<a href="#"><button class="btn" style="float:left">ખેડૂત</button></a>
+							<a href="#"><button class="btn" style="float:left">સમાચાર</button></a><br>
+							<h4 style="margin-top:50px">લોકડાઉન માં શ્રમિક પરિવારે પૈસા ખૂટતા ‘વ્હાલસોયો’ બળદ વેચી દીધો,ગાડું ચલાવવા 15 વર્ષ નો કિશોર જોતરાયો, આ છે વાસ્તવિકતા !!!</h4>
+						</div>
+						<div class="card-footer">
+							<h6>કોરોના એ દેશ ને છિન્નભિન્ન કરી નાખ્યો છે અને લોકડાઉન માં ધંધા રોજગાર બંધ થઈ રોજગારી ગુમાવી ચૂકેલા શ્રમિકો તથા.</h6>
+						</div>									
+					</div>
+					
+				</div>
+					
+					<div class="col-sm-4" style="margin-top:50px;">
+						<img src="images/dhandho.jpg">
+						<img src="images/dhandho.jpg" style="margin-top:50px;">
+				</div>
+					
+			</div>
+		</div>
+	</div>
+
+	
+	
+	
+	
+	<div class="container">
+		<div style="margin-top:50px">
+			<div class="row">
+				<div class="col-sm-12">	
+					<h2 align="center">કોરોના અપડેટ્સ</h2>
+					<hr style="border:1px solid #00aaff">
+				</div>
+			</div>
+		</div>
+	</div>
+			
+	
+	<!-- body-->
+	
+	<div class="container-fluid">
+		<div style="margin-top:30px; margin-bottom:30px;">
+			<div class="row">
+			  <div class="col-sm-12">
+				<div class="section-heading">				<!--make css file for section-heading class-->
+				  <h2>લેટેસ્ટ  અપડેટ્સ</h2>
+				  <hr style="border:1px solid #00aaff">
+				</div>
+			  </div>
+			  
+			  <div class="col-sm-3">
+					<div class="card shadow visible">
+						<div class="card-header" style="padding:0px;">
+							<img src="images/corona.jpg" class="img-fluid">
+						</div>
+						<div class="card-body">
+							<a href="#"><p class="h1 text-danger" style="font-size:15px;"><em class="update">Active Cases</em></p></a>
+							<h6 style="color:red">10000</h6>
+							<h6>Cases Add today :-<em class="update">[+100] </em> </h6>
+						</div>						
+					</div>		
+			  </div>
+			  
+			  
+			  <div class="col-sm-3">
+					<div class="card shadow visible">
+						<div class="card-header" style="padding:0px;">
+							<img src="images/corona.jpg" class="img-fluid">
+						</div>
+						<div class="card-body">
+							<a href="#"><p class="h1 text-danger" style="font-size:15px;"><em class="update">Recover Cases</em></p></a>
+							<h6 style="color:red">1000</h6>
+							<h6>Cases Recover today :-<em class="update">[+100] </em> </h6>
+						</div>						
+					</div>		
+			  </div>
+			  
+			  
+			  <div class="col-sm-3">
+					<div class="card shadow visible">
+						<div class="card-header" style="padding:0px;">
+							<img src="images/corona.jpg" class="img-fluid">
+						</div>
+						<div class="card-body">
+							<a href="#"><p class="h1 text-danger" style="font-size:15px;"><em class="update">Death Cases</em></p></a>
+							<h6 style="color:red">1000</h6>
+							<h6>Today Death :-<em class="update">[+100] </em> </h6>
+						</div>						
+					</div>		
+			  </div>
+			  
+			  <div class="col-sm-3">
+					<div class="card shadow visible">
+						<div class="card-header" style="padding:0px;">
+							<img src="images/corona.jpg" class="img-fluid">
+						</div>
+						<div class="card-body">
+							<a href="#"><p class="h1 text-danger" style="font-size:15px;"><em class="update">Total Cases</em></p></a>
+							<h6 style="color:red">1000</h6>
+							<h6>Total Cases :-<em class="update">[+100] </em> </h6>
+						</div>						
+					</div>		
+			  </div>
+			  
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<!-- footer -->
+	
+	<footer>
+		<div class="footer-top">
+			  <div class="container">
+				<div class="row">
+					<div class="col-xl-3 col-xs-12 col-md-6">
+						<h2>તમારી માટે</h2>
+						<p>જો તમારી પાસે કોઈ અન્ય જાણવા લાયક માહિતી હોય, તો તમે અમને મેસેજ દ્વારા મોકલાવી શકો છો.જેથી અમે એ માહિતી અમારા બીજા લેખમાં ઉમેરી વધુમાં વધુ લોકો સુધી પહોચાડી શકીએ. જો તમે સેવાકીય કાર્યો, પ્રેરણાત્મક સ્ટોરી, સામાજીક કાર્યો, જાણવા જેવું, હાલના બનાવ, દેશ-વિદેશના સમાચાર,અન્ય સમાચાર વગેરેની માહિતી આપ આ વેબસાઈટ મા મુકવા માંગો છો તો અમારો સંપર્ક કરો અને મેળવવા માંગો છો તો ફેસબુક પર અમારા પેજને ફોલો કરી અમારી સાથે જોડાયેલા રહો.અમે જ રસપ્રદ અને ઉપયોગી માહિતી તમારા માટે લાવતા રહીશું. આભાર.</p>
+						
+					</div>
+					<div class="col-xl-3 col-xs-12 col-md-6">
+						<h2>Categories</h2>
+						<a href="#"><p>ખેડૂત</p></a>
+						<a href="#"><p>જાણવા જેવું</p></a>
+						<a href="#"><p>લેખ</p></a>
+						<a href="#"><p>રાજકારણ</p></a>
+						<a href="#"><p>ધાર્મિક</p></a>
+						<a href="#"><p>સ્વાસ્થ્ય</p></a>
+						<a href="#"><p>સમાચાર</p></a>
+					</div>
+					<div class="col-xl-3  col-xs-12 col-md-6">
+						<h2>Recent Post</h2>
+						<a href="#"><p>લોકડાઉન ૫.૦ની જાહેરાતઃ ૧ મહિનો લંબાવાયું લોકડાઉન, જાણો શું છે નવી ગાઇડલાઇન</p></a>
+						<a href="#"><p>અમદાવાદનાં વધુ એક પોલીસ યુવાને જીવન ટુંકાવ્યું, ગળે ફાંસો ખાઇને કર્યો આપઘાત</p></a>
+						<a href="#"><p>લોકડાઉન હટાવવું કે વધુ સખત કરવું? મોદી અને શાહ વચ્ચે લાંબી બેઠક</p></a>
+						<a href="#"><p>મૃત્યુ પછી તમારા પ્રિયજનને ઇંડામાં રોપીને ઝાડમાં રૂપાંતરિત કરો</p></a>
+						<a href="#"><p>હવે વ્હોટ્સઅપથી  LPG સિલિન્ડર બુક કરાવો અને ઓનલાઈન પેમેન્ટ કરો.</p></a>
+					</div>
+					<div class="col-xl-3  col-xs-12 col-md-6">
+						<h2>Follow me</h2>
+						<a href="#" class="fa fa-facebook"></a>
+						<a href="#" class="fa fa-twitter"></a>
+						<a href="#" class="fa fa-google"></a>
+						<a href="#" class="fa fa-linkedin"></a>
+						
+						<iframe 
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.9420963075627!2d73.07432986427175!3d22.468810142436286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fb55277d1e457%3A0xaf7e43a3d29561b!2z4Kq44Kqw4Kqm4Kq-4KqwIOCqteCqsuCrjeCqsuCqreCqreCqvuCqiCDgqqrgqp_gq4fgqrIg4KqH4Kqo4KuN4Kq44KuN4Kqf4Kq_4Kqf4KuN4Kqv4KuC4KqfIOCqk-CqqyDgqp_gq4fgqpXgqqjgq4vgqrLgq4vgqpzgq4A!5e0!3m2!1sgu!2sin!4v1590571697618!5m2!1sgu!2sin"
+							width="200" height="200" frameborder="0" style="border:0; margin-top:30px;" allowfullscreen=""
+							aria-hidden="false" tabindex="0"></iframe>
+						<p>Call us : +91 63 543 277 45 & <br> +91 63 543 277 45</p>
+						
+				</div>
+			  </div>
+		  </div class="copy">
+		  <p class="footer-bottom-text">  All right reserved by &copy;Kathiyawadi CodeClub @2020</p>
+    </footer>
+	
+    
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script>
+	
+	$(document).ready(function(){
+		
+		$(window).scroll(function(){
+		
+			$('nav').toggleClass('second',$(this).scrollTop()>680);
+		
+		});
+	});
+		
+	$(document).ready(function(){
+	
+		$('li').mouseenter(function(){
+		
+			$(this).css('background-color','#00aaff');
+			$(this).css('transition','0.5s');
+		});
+		$('li').mouseleave(function(){
+		
+			$(this).css('background-color','transparent');
+		});
+	});
+	
+    </script>
+	
+	<script>
+		var d = new Date();
+		document.getElementById("datetime").innerHTML = d;
+	</script>
+	
+	
+  </body>
+</html>
